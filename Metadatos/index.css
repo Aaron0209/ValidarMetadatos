@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del formulario */
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos de los mensajes de error y éxito */
+.alert {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+/* Estilos para la lista de metadatos */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Estilos específicos para los mensajes de error */
+p.error-message {
+    color: #a94442;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para los mensajes de éxito */
+p.success-message {
+    color: #3c763d;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
