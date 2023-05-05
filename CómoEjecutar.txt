@@ -1,0 +1,11 @@
+0. Abrir la aplicación Xampp y darle start a Mysql y Apache
+1. Abrir Documentos
+2. Seleccionar "Este equipo"
+3. Ir a Windows C
+4. Abrir la carpeta que dice "xampp"
+5. Dentro de la carpeta xampp abrir la carpeta que dice "htdocs"
+6. Dentro de htdocs descomprimir el zip de Metadatos
+7. Al descomprimir el zip entrar al archivo Metadatos
+8. Dirigirse a google chrome o a algun navegador y escribir lo siguiente: http://localhost/Metadatos/index.php
+
+Nota: Se utilizó el servidor Xampp para visualizar el programa en el navegador, pero se puede utilizar algún otro servidor local como Wampserver64 u otros.
